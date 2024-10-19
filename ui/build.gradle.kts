@@ -13,7 +13,7 @@ plugins {
 
 android {
     compileSdk = 34
-    ndkVersion = "27.1.12297006"
+    ndkVersion = "27.2.12479018"
     buildFeatures {
         buildConfig = true
         dataBinding = true
