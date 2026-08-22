@@ -20,12 +20,12 @@ export GOARCH := $(NDK_GO_ARCH_MAP_$(ANDROID_ARCH_NAME))
 export GOOS := android
 export CGO_ENABLED := 1
 
-GO_VERSION := 1.25.13
+GO_VERSION := 1.26.7
 GO_PLATFORM := $(shell uname -s | tr '[:upper:]' '[:lower:]')-$(NDK_GO_ARCH_MAP_$(shell uname -m))
 GO_TARBALL := go$(GO_VERSION).$(GO_PLATFORM).tar.gz
-GO_HASH_darwin-amd64 := d742b7a53f8c8be5e02d75263883482cebabbe14ec9308cb056dd8aebeb040df
-GO_HASH_darwin-arm64 := 916fe61a2bc78dd516b3629ee3428b06e17141b85a70f1986c260149a3d2ffbd
-GO_HASH_linux-amd64 := 39042a078ea9ceebe3ecda4a7188f0f5b96e14a071d27923ba7f40b456e85ae3
+GO_HASH_darwin-amd64 := 92e8b34bff3c89ab16404c595669ac8cb004cc2f676dcbd1f5b87a6b8def3b47
+GO_HASH_darwin-arm64 := 020a1e8224811be75163e920bc77e0926a1390a6aeea19bdcf23f74b9d749f6d
+GO_HASH_linux-amd64 := ffb5f8de10c62550dfddab66b36b57030721e0a44a3218e9e1181d7b59f121ca
 
 default: $(DESTDIR)/libwg-go.so
 
