@@ -1,6 +1,6 @@
 module golang.zx2c4.com/wireguard/android
 
-go 1.25.0
+go 1.26.0
 
 require (
 	golang.org/x/sys v0.47.0
@@ -8,7 +8,7 @@ require (
 )
 
 require (
-	golang.org/x/crypto v0.55.0 // indirect
+	golang.org/x/crypto v0.56.0 // indirect
 	golang.org/x/net v0.58.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 )
