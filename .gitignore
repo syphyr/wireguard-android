@@ -5,6 +5,7 @@
 /.idea/libraries/
 /captures/
 /local.properties
+/keystore.properties
 .DS_Store
 .cxx/
 Thumbs.db
